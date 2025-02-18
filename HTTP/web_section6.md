@@ -6,8 +6,8 @@
 >     - GET
 >     - 검색어 정렬 필터
 > 2. 메시지 바디를 통한 데이터 전송
->   - POST, PUT, PATCH
->   - 회원가입, 상품 주문, 리소스 등록, 리소스 변경
+>     - POST, PUT, PATCH
+>     - 회원가입, 상품 주문, 리소스 등록, 리소스 변경
 
 ## 클라이언트에서 서버로 데이터를 전송하는 예시
 ### 정적 데이터 조회
@@ -33,8 +33,9 @@
 이때, HTTP 요청의 Content-Type 헤더는 application/x-www-form-urlencoded로 설정되며, 브라우저는 username=kim&age=20과 같은 형식으로 데이터를 전송한다.
 
 > Q : x-www-form-urlencoded 가 뭔가요 ?
->A:  application/x-www-form-urlencoded는 HTML 폼 데이터를 key=value 형태로 변환해 HTTP 요청 본문(body)에 포함하는 인코딩 방식이다.
->일반적으로 POST 요청에서 사용되며, GET 요청이 데이터를 Query String 형태로 보내는 것과 대비된다.
+
+> A:  application/x-www-form-urlencoded는 HTML 폼 데이터를 key=value 형태로 변환해 HTTP 요청 본문(body)에 포함하는 인코딩 방식이다.
+일반적으로 POST 요청에서 사용되며, GET 요청이 데이터를 Query String 형태로 보내는 것과 대비된다.
 
 
 #### GET 전송
