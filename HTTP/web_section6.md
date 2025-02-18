@@ -46,6 +46,7 @@
 
 #### mulitipart/form-data
 ![](https://velog.velcdn.com/images/sepang-pang/post/ab1bb1f1-185e-4fc9-ba52-b3654905fe15/image.png)
+
 username과 age 같은 텍스트 데이터뿐만 아니라 바이너리 파일까지 전송할 때는 multipart/form-data 형식을 사용해야 한다.
 웹 브라우저는 자동으로 boundary를 사용해 파일과 텍스트 데이터를 구분하며, 이를 통해 여러 개의 Content-Type을 포함한 요청을 보낼 수 있다.
 주로 바이너리 데이터 전송에 활용된다.
